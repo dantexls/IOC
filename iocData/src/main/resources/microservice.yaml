@@ -1,0 +1,11 @@
+APPLICATION_ID: environment
+service_description:
+# name of the declaring microservice
+  name: ioc
+  version: 0.0.1
+cse:
+  service:
+    registry:
+      address: http://49.4.6.225:30100
+  rest:
+    address: 0.0.0.0:10001
